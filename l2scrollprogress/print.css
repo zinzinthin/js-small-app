@@ -1,0 +1,36 @@
+body{
+    color: blue;
+}
+
+header{
+    background-color: steelblue;
+    color: #fff;
+
+    position: static;
+    
+    print-color-adjust: exact;
+    -webkit-print-color-adjust:exact;
+}
+
+header .progress{
+    display: none;
+}
+
+.btn-print{
+    display: none;
+}
+
+.content{
+    margin: 10px auto;
+}
+
+@page{
+    /* size: portrait; */
+    /* size:auto; default;*/
+    /* size:landscape */
+    /* size:A4; */
+    /* size: legal; */
+    /* size:A4 landscape; */
+    size:4in 6in;
+    margin: 0;
+}
